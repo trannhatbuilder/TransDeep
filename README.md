@@ -370,25 +370,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
-## 🙋 Support & FAQ
-
-### Q: Can I use without NVIDIA API?
-A: Currently requires NVIDIA API. Future versions planned for multiple providers.
-
-### Q: Is this offline?
-A: No, requires internet connection for API calls.
-
-### Q: Can I change languages?
-A: Yes, edit `SOURCE_LANG` and `TARGET_LANG` in `config/settings.py`
-
-### Q: How do I change the hotkey?
-A: Edit `HOTKEY` in `config/settings.py`, e.g., `"ctrl+shift+t"`
-
-### Q: Does this work on Mac?
-A: Yes! PyQt6 supports macOS. May need accessibility permissions.
-
----
-
 ## 📊 Performance Metrics
 
 | Metric | Value |
@@ -412,20 +393,7 @@ A: Yes! PyQt6 supports macOS. May need accessibility permissions.
 
 ## 👨‍💻 Author
 
-**TransDeep Project** - AI Translation & Analysis
-
----
-
-## ⭐ Features Roadmap
-
-- [ ] 🌙 Light theme UI option
-- [ ] 🔊 Text-to-speech pronunciation
-- [ ] 💾 Translation history
-- [ ] 🎙️ Voice input support
-- [ ] 🗂️ Translation export (PDF/TXT)
-- [ ] 🔄 Batch translation processing
-- [ ] 🌐 Web interface version
-- [ ] 📱 Mobile app companion
+**Tran Nhon Nhat**
 
 ---
 
