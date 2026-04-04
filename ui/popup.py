@@ -100,7 +100,7 @@ class TranslationPopup(QWidget):
         # ── Result Area ────────────────────
         self.result_browser = QTextBrowser()
         self.result_browser.setOpenExternalLinks(True)
-        self.result_browser.setFont(QFont("Segoe UI", 12))
+        self.result_browser.setFont(QFont("Segoe UI", 16))
         main_layout.addWidget(self.result_browser, 1)
 
         # ── Loading Label (hidden by default) ──
@@ -194,9 +194,9 @@ class TranslationPopup(QWidget):
         # Add custom CSS for rendered markdown
         styled_html = f"""
         <style>
-            body {{ color: #e2e8f0; font-family: 'Segoe UI', sans-serif; }}
-            h2 {{ color: #818cf8; margin-top: 16px; font-size: 15px; }}
-            h3 {{ color: #a5b4fc; margin-top: 12px; font-size: 14px; }}
+            body {{ color: #e2e8f0; font-family: 'Segoe UI', sans-serif; font-size: 16px; }}
+            h2 {{ color: #818cf8; margin-top: 16px; font-size: 17px; }}
+            h3 {{ color: #a5b4fc; margin-top: 12px; font-size: 16px; }}
             ul {{ padding-left: 20px; }}
             li {{ margin: 4px 0; color: #cbd5e1; }}
             code {{ background: #252745; padding: 2px 6px; border-radius: 4px;
@@ -220,7 +220,7 @@ class TranslationPopup(QWidget):
         self.loading_label.hide()
         self.result_browser.show()
         self.result_browser.setHtml(
-            f'<p style="color: #ef4444; font-size: 14px;">❌ {error}</p>'
+            f'<p style="color: #ef4444; font-size: 16px;">❌ {error}</p>'
         )
         self.status_label.setText("❌ Error occurred")
         self.close_btn.setEnabled(True)  # Re-enable close button

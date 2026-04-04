@@ -54,7 +54,7 @@ QTextEdit, QTextBrowser {
     border: 1px solid #2d2f4e;
     border-radius: 8px;
     padding: 12px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     selection-background-color: #4f46e5;
     selection-color: #ffffff;
